@@ -11,6 +11,7 @@ It is useful as an alternative for the official Google Cloud Build app, as it do
      * Name: `Google Cloud Build`
      * Homepage URL: `https://console.cloud.google.com/cloud-build/builds`
      * User authorization callback URL: `https://console.cloud.google.com/cloud-build/builds`
+     * Webhook URL: `https://europe-west1-au-prod.cloudfunctions.net/gh-webhook`
      * Permissions: **Checks** - read & write, **Commit statuses** - read & write
   3. Generate a new private key
   4. Install the newly added GitHub App in your GitHub organization
@@ -23,3 +24,8 @@ It is useful as an alternative for the official Google Cloud Build app, as it do
      * Copy/paste `index.js` and `package.json` contents into the relevant text fields,
      * Function to execute: `handleEvent`,
      * Advanced -> select region (optional)
+
+## Known issues / limitations
+
+- The webhook URL is mandatory, but is not supported; the webhook URL mentioned above does nothing
+- The GitHub "*re-run build*" button does not work as there is no webhook support yet
