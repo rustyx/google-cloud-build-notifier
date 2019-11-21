@@ -1,0 +1,11 @@
+.DS_Store
+node_modules
+/dist
+*.log
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

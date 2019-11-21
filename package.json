@@ -1,0 +1,16 @@
+{
+  "name": "google-cloud-build-notifier",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js"
+  },
+  "license": "MIT",
+  "author": "rustyx",
+  "dependencies": {
+    "@octokit/app": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0"
+  }
+}
