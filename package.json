@@ -8,9 +8,9 @@
   "license": "MIT",
   "author": "rustyx",
   "dependencies": {
-    "@octokit/app": "^4.1.0"
+    "@octokit/app": "^4.2.0"
   },
   "devDependencies": {
-    "eslint": "^6.6.0"
+    "eslint": "^6.8.0"
   }
 }
